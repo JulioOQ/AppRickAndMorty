@@ -1,0 +1,56 @@
+.cabecera{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.personajes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2px;
+}
+
+.personaje{
+    width: 200px;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    
+}
+.personaje p{
+    text-align: center;
+    
+}
+
+.personaje img{
+    width: 100%;
+    
+}
+
+.personaje h3{
+    font-size: 20px;
+    text-align: center;
+    
+}
+.vivo{
+    border-color: lightgreen;
+
+}
+.muerto{
+    border-color: lightcoral;
+
+}
+
+.items{
+    width: 200px;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 4px;
+    text-align: center;
+    background-color: rgb(49, 46, 46);
+    color: white;
+   
+}
+
+.items button{
+   margin-left: 3px;
+}
